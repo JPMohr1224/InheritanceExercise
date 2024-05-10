@@ -34,6 +34,27 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+
+
+            var bird = new Bird();
+            bird.Age = 1;
+            bird.color = "blue";
+            bird.name = "bluebird";
+            bird.isASongbird = true;
+            bird.howManyWings = 2;
+
+            var iguana = new Reptile();
+            iguana.Age = 5;
+            iguana.Name = "Godzilla";
+            iguana.extinct = false;
+            iguana.HasLegs = true;
+            iguana._HowManyApendages = 4;
+
+
+            bird.introduce();
+            iguana.whatIsIt();
         }
+
+
     }
 }
